@@ -40,7 +40,7 @@ Category
               <Card.Title>{item.title}</Card.Title>
               <Card.Text className="d-flex justify-content-between">
                 <span>{item.category}</span>
-                <span>zł{item.price}</span>
+                <span>{item.price}zł</span>
               </Card.Text>
             </Card.Body>
           </Card>
