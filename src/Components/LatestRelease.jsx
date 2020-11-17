@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "../App.css";
-import items from "../data/booklibrary.json"
+import items from "../data/Romance.json"
 
 const LatestRelease = () => {
   return (

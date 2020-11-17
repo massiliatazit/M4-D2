@@ -11,25 +11,24 @@ const MyFooter = (props) => {
     >
       <Row>
         <Col xs={6} sm={3} md={3}>
-          <h5 className="title">Footer Content</h5>
-          <p>
+        
+          <p className='text-center mt-2'>
             Currently {props.info} 
             </p>
         </Col>
         <Col md={6}>
-          <h5 className="title">About US</h5>
-          <ul>
+          <h5 className="title mt-2">About US</h5>
+          {/* <ul>
           <li className="list-unstyled">
               <a href="#!">Buy book</a>
             </li>
             <li className="list-unstyled">
               <a href="#!">Rental Books</a>
             </li>
-          </ul>
+          </ul> */}
         </Col>
-      </Row>
-      <Container >
-        <div className="footer-copyright text-center py-3">
+       
+        <div className="footer-copyright text-center py-2">
           <Container fluid></Container>
           &copy; {new Date().getFullYear()} Copyright:{" "}
           <a href="https://www.MyfavoritebooksMassy.com">
@@ -37,7 +36,9 @@ const MyFooter = (props) => {
             MyfavoritebooksMassy.com{" "}
           </a>
         </div>
-      </Container>
+      
+      </Row>
+      
     </Container>
   );
 };
