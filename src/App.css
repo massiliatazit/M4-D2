@@ -3,6 +3,8 @@
   text-align: center;
   background-color: #C0BCB5;
   font-family:'Xanh Mono', monospace;
+  height: 94%;
+
 }
 
 .App-logo {
@@ -49,8 +51,16 @@ background-size: cover;
 .footer{
   
  
-  height: 6%;
+  
+    position: fixed;
+    height: 6%;
+  
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
+
 
 .tracking-in-expand:hover {
   color:#00a896; font-weight: bold;

@@ -6,8 +6,8 @@ const MyFooter = (props) => {
   return (
     <Container
       fluid
-      className="footer fixed-bottom"
-      style={{ backgroundColor: "#4A6C6F" }}
+      className="footer"
+      style={{ backgroundColor: "#135144" }}
     >
       <Row>
         <Col xs={6} sm={3} md={3}>
@@ -16,7 +16,7 @@ const MyFooter = (props) => {
             Currently {props.info} 
             </p>
         </Col>
-        <Col md={6}>
+        <Col xs={6} sm={3} md={3}>
           <h5 className="title mt-2">About US</h5>
           {/* <ul>
           <li className="list-unstyled">
@@ -28,7 +28,7 @@ const MyFooter = (props) => {
           </ul> */}
         </Col>
        
-        <div className="footer-copyright text-center py-2">
+        <div className="footer-copyright text-center py-2" >
           <Container fluid></Container>
           &copy; {new Date().getFullYear()} Copyright:{" "}
           <a href="https://www.MyfavoritebooksMassy.com">

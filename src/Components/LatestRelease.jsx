@@ -13,7 +13,7 @@ const LatestRelease = () => {
       </Row>
       <Row className="justify-content-between text-center">
         {items.map((item) => (
-          <Card   border="dark" className="my-3" style={{ width: "18rem" }} key={item.asin}>
+          <Card   border="dark" className="my-1" style={{ width: "18rem" }} key={item.asin}>
             <Card.Img variant="top" height={200} src={item.img} />
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
