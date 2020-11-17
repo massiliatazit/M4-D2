@@ -8,12 +8,12 @@ const MyJumbotron=(props)=>{
 
         <div>
             <Jumbotron className=' text-white bg'>
-  <h1> Welcome to my {props.title} store! world!</h1>
-  <h6>
+  <h1 > Welcome to my {props.title} store!</h1>
+  <h2 className='tracking-in-expand'>
    
     <br/>
         {props.tagline}
-  </h6>
+  </h2>
   
 </Jumbotron>
         </div>
