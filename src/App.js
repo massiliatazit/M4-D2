@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import MyNav from "./Components/MyNav"
 import MyFooter from './Components/MyFooter';
 import MyJumbotron from './Components/MyJumbotron';
-import LatestRelease from "./Components/LatestRelease";
-import DropDown from './Components/DropDown';
+import LatestReleases from "./Components/LatestRelease";
 
 
 
@@ -18,8 +17,7 @@ class App extends React.Component {
         <MyNav title='Book'/>
        
         <MyJumbotron title='Book' tagline=" Books you can’t resist"/>
-        <DropDown/>
-        <LatestRelease/>
+        <LatestReleases />
         <MyFooter info='CLOSED'/>
       </div>
       </>
